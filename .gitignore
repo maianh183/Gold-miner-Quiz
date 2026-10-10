@@ -1,0 +1,29 @@
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.vite/
+test-results/
+
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+secrets/
+credentials/
+.npmrc
+
+# Local tool state and logs
+.codex/
+.agents/
+.aws/
+*.log
+.DS_Store
+Thumbs.db
